@@ -47,9 +47,10 @@
 		color based on each of the following times of day. I also added code to indicate the correct day of the week, as well!</p>
 	  <img id="my-pic" src="http://dummyimage.com/300x400" alt="Time of Day Image" class="flexible">
      <footer>
-      <p><small id="copyright">
-		<!-- Placeholder for the dynamic copyright notice -->
-	  </small>
+      <p>
+		<small id="copyright"></small>
+		<a id="html-checker" href="#" target="_blank">Check HTML</a> ~ 
+        <a id="css-checker" href="#" target="_blank">Check CSS</a>
      </p>
     </footer>
   </main>
@@ -121,7 +122,7 @@
     let copyrightElement = document.getElementById("copyright");
     if (copyrightElement) {
       let copyrightText =
-        "&copy; " + currentYear + " by " + companyName + ", All Rights Reserved";
+        "&copy; " + currentYear + " by " + companyName + ", All Rights Reserved ~";
       copyrightElement.innerHTML = copyrightText;
     }
 
